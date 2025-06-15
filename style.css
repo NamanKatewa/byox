@@ -1,0 +1,85 @@
+body {
+  font-family: "Ubuntu", serif;
+  background: #1e2781;
+  margin: 0;
+  padding-bottom: 3rem;
+  color: #fbb116;
+}
+/* 46aee4 */
+header {
+  text-align: center;
+  background: #fbb116;
+  color: #1e2781;
+  padding: 2rem 1rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  /* background: white; */
+  border-bottom: 1px solid #46aee4;
+}
+
+.filters label {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.filters select {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  appearance: none;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.card {
+  background: #46aee4;
+  color: #fbb116;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 150px;
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  margin: 0 0 0.5rem;
+}
+
+.card a {
+  text-decoration: none;
+  color: #1e2781;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+.meta {
+  margin-top: auto;
+  font-size: 0.9rem;
+  color: #1e2781;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.8rem;
+  color: #888;
+}
